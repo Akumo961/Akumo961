@@ -1,4 +1,4 @@
-# Hi, I'm Ali El-Sayed Ali 👋
+# Hi, I'm Ali El-Sayed Ali 👋 
 
 ### Senior AI Engineer | LLM & Agentic AI | RAG | Production AI
 
