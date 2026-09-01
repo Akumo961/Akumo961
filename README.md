@@ -1,48 +1,94 @@
 # Hi, I'm Ali El-Sayed Ali 👋
 
-### AI Engineer | LLM & Agentic AI | RAG | Production AI
+### AI Engineer | LLM & Agentic AI | RAG | Enterprise AI Systems
 
 I build **production-oriented AI systems** that connect LLMs, agents, enterprise data, APIs, databases, and user-facing applications.
 
-My focus is applied AI engineering: turning AI capabilities into **secure, testable, observable, and maintainable software**—from architecture and model integration through retrieval, agent orchestration, evaluation, optimization, and deployment.
+My focus is applied AI engineering: turning AI capabilities into **secure, grounded, testable, observable, and maintainable software** — from architecture and model integration through retrieval, agent orchestration, evaluation, optimization, and deployment.
 
 ---
 
-## 🤖 AI Engineering
+## 🤖 AI Engineering Focus
 
 - **LLMs & Generative AI:** OpenAI, Anthropic Claude, Ollama, structured outputs, prompt engineering
 - **Agentic AI:** LangGraph, LangChain, MCP, tool/function calling, multi-step workflows
-- **RAG & Retrieval:** embeddings, semantic search, vector databases, FAISS, Elasticsearch
-- **AI Evaluation:** regression testing, retrieval evaluation, response quality, benchmarking, latency and cost measurement
+- **RAG & Retrieval:** embeddings, semantic search, vector databases, FAISS, Elasticsearch, Azure AI Search
+- **AI Evaluation:** retrieval evaluation, regression testing, grounding, response quality, latency and cost measurement
 - **Backend:** Python, FastAPI, PostgreSQL, SQLAlchemy, Pydantic, REST APIs
-- **Cloud & Platform:** Docker, Kubernetes, Helm, Terraform, GitHub Actions, CI/CD, AWS, Azure, GCP
-- **Enterprise AI:** document intelligence, privacy/PII detection, compliance workflows, secure data access
+- **Cloud & Platform:** Docker, Kubernetes, Helm, Terraform, GitHub Actions, Azure, AWS, GCP
+- **Enterprise AI:** document intelligence, privacy/PII protection, authorization-aware retrieval, AI safety, observability
 
 ---
 
-## 📊 Selected Project Impact
+## 🚀 Featured AI Engineering Projects
 
-- **250+ users** — QStock AI-powered inventory intelligence platform
-- **100K+ documents** — document/RAG workloads represented across portfolio projects
-- **90% retrieval improvement** — retrieval/indexing optimization work
-- **90% reduction in manual review effort** — compliance automation workflow
+### 🧠 Gandalf — Multimodal AI Agent
 
-> Performance and accuracy figures are reported only where supported by project evidence; repositories intentionally avoid unsupported production claims.
+A Python-based **multimodal AI agent** combining LLM reasoning, voice interaction, computer vision, image generation, and desktop automation.
+
+- Natural-language command routing and tool orchestration
+- Voice/STT/TTS interaction
+- Computer vision and multimodal workflows
+- Image generation integration
+- Safer desktop/application automation
+- Configurable external AI services and runtime isolation
+- Input validation, safety controls, automated tests and CI quality gates
+
+**Stack:** Python · LLMs · Voice AI · Computer Vision · Generative AI · Automation · Pytest · Ruff · GitHub Actions
+
+[View Gandalf →](https://github.com/Akumo961/Gandalf)
 
 ---
 
-## 🚀 Featured Projects
+### ☁️ AzureBot — Enterprise RAG Engineering Platform
 
-### 🥇 QStock — Enterprise Inventory Intelligence
+An enterprise-oriented RAG platform built on the Azure AI ecosystem, transformed from the Microsoft reference architecture into an **engineering-focused RAG security and evaluation project**.
 
-AI-powered inventory platform developed for **Scouts Musulmans de Montréal** and used by **250+ users**.
+- Azure OpenAI / Azure AI Search architecture
+- Retrieval-augmented generation and grounded responses
+- Authorization-aware retrieval and access boundaries
+- Retrieved content treated as untrusted input
+- Prompt-injection defenses and RAG security controls
+- Retrieval and response evaluation foundations
+- Enterprise threat modeling and architecture documentation
+- Testing and engineering-quality controls
+
+**Stack:** Python · Azure OpenAI · Azure AI Search · RAG · Vector Search · LLMs · Security · Evaluation · Azure
+
+[View AzureBot →](https://github.com/Akumo961/AzureBot)
+
+> The repository documents its Microsoft sample foundation and distinguishes upstream components from the original engineering work added on top.
+
+---
+
+### 🏥 MediQuery — Medical Document Intelligence & RAG
+
+Privacy-conscious medical-document intelligence platform focused on structured extraction, evidence, AI safety, secure data handling, and grounded analysis workflows.
+
+- PDF validation and structured extraction
+- Evidence-aware AI analysis
+- Authentication, authorization and tenant isolation
+- AI safety safeguards for medical-domain workflows
+- Secure document handling and ownership boundaries
+- Telemetry, rate limiting and automated testing
+- Docker and CI/CD
+
+**Stack:** Python · FastAPI · NLP · RAG · PostgreSQL · Docker · AI Safety
+
+[View MediQuery →](https://github.com/Akumo961/MediQuery)
+
+---
+
+### 📊 QStock — Enterprise Inventory Intelligence
+
+AI-powered inventory intelligence platform developed for **Scouts Musulmans de Montréal** and used by **250+ users**.
 
 - Natural-language interaction with structured PostgreSQL data
-- Template-first **NL→SQL** architecture with LLM fallback
+- Template-first NL→SQL architecture with LLM fallback
 - SQL validation and read-only execution
 - English/French query support
 - Prompt-injection and sensitive-data protections
-- AI regression testing, latency, token and cost instrumentation
+- AI regression testing and latency/token/cost instrumentation
 - React + FastAPI + PostgreSQL + Docker + GitHub Actions
 
 **Stack:** Python · FastAPI · PostgreSQL · OpenAI · Ollama · React · TypeScript · Docker
@@ -51,9 +97,9 @@ AI-powered inventory platform developed for **Scouts Musulmans de Montréal** an
 
 ---
 
-### 🥈 GoAnalyze — Enterprise Document Intelligence & Secure RAG
+### 📄 GoAnalyze — Enterprise Document Intelligence & Secure RAG
 
-Enterprise-oriented document intelligence platform combining RAG, semantic retrieval, LLM analysis, security, and infrastructure engineering.
+Enterprise-oriented document intelligence platform combining RAG, semantic retrieval, LLM analysis, multi-tenancy, security, and infrastructure engineering.
 
 - Document ingestion and processing
 - RAG and semantic/vector retrieval
@@ -71,11 +117,11 @@ Enterprise-oriented document intelligence platform combining RAG, semantic retri
 
 ### 🛡️ DataGuard — Privacy & PII Intelligence
 
-Enterprise-oriented AI/privacy engineering platform for PII discovery, privacy risk assessment, compliance workflows, and auditable evidence.
+Enterprise AI/privacy engineering platform for PII discovery, privacy risk assessment, compliance workflows, and auditable evidence.
 
-- PII and sensitive-information detection architecture
+- PII and sensitive-information detection
 - Explainable privacy risk scoring
-- PIA workflow and compliance controls
+- PIA and compliance workflows
 - Multi-tenant security boundaries
 - PostgreSQL / SQLAlchemy / Alembic
 - FastAPI, Docker, testing and GitHub Actions
@@ -87,33 +133,16 @@ Enterprise-oriented AI/privacy engineering platform for PII discovery, privacy r
 
 ---
 
-### 🏥 MediQuery — Privacy-Conscious Medical Report Intelligence
-
-Secure medical-document intelligence foundation focused on structured extraction, evidence, AI safety, and future grounded retrieval workflows.
-
-- PDF validation and structured extraction
-- Private storage and ownership isolation
-- Authentication and authorization
-- AI safety and medical-domain safeguards
-- Telemetry, rate limiting and automated testing
-- Docker and CI/CD
-
-**Stack:** Python · FastAPI · NLP · Retrieval · PostgreSQL · Docker · AI Safety
-
-[View MediQuery →](https://github.com/Akumo961/MediQuery)
-
----
-
-### 🧠 CodingResearchAgentAI — Agentic Research Platform
+### 🔬 CodingResearchAgentAI — Agentic Research Platform
 
 Multi-step research and task-execution system demonstrating agent orchestration and tool-driven workflows.
 
-- LangGraph-based orchestration
+- LangGraph orchestration
 - Tool/function calling
 - MCP integration
 - Structured outputs with Pydantic
 - Automated research workflows
-- Agent workflow evaluation foundations
+- Agent evaluation foundations
 
 **Stack:** Python · LangGraph · LangChain · Pydantic · MCP · LLMs
 
@@ -121,24 +150,9 @@ Multi-step research and task-execution system demonstrating agent orchestration 
 
 ---
 
-### 🎨 DeepScene-AI — Generative Multimodal AI
+## 🏗️ How I Build AI Systems
 
-Generative AI project exploring text-to-image workflows and local inference.
-
-- Stable Diffusion
-- Prompt-driven image generation
-- Generative AI experimentation
-- Local inference workflows
-
-**Stack:** Python · Stable Diffusion · PyTorch · Generative AI
-
-[View Project →](https://github.com/Akumo961/DeepScene-AI)
-
----
-
-## 🏗️ Engineering Philosophy
-
-I approach AI as a **software engineering discipline**, not only a model-selection problem.
+I approach AI as a **software engineering discipline**, not simply a model-selection problem.
 
 My systems emphasize:
 
@@ -147,13 +161,15 @@ My systems emphasize:
 ### Areas of focus
 
 - Production LLM applications
-- Agentic AI architectures
-- RAG and retrieval optimization
+- Enterprise RAG architectures
+- Agentic AI and tool orchestration
+- Multimodal AI systems
+- Document intelligence
 - NL→SQL and structured-data AI
-- LLM evaluation and regression testing
-- AI platform engineering
-- Enterprise AI security and privacy
+- Retrieval and RAG evaluation
+- AI security, privacy and guardrails
 - AI observability, reliability and cost optimization
+- Cloud-native AI platforms
 
 ---
 
@@ -161,16 +177,17 @@ My systems emphasize:
 
 ```text
 AI / ML
-  LLMs · RAG · Agents · NLP · Embeddings · Vector Search
+  LLMs · RAG · Agents · Multimodal AI · NLP · Embeddings · Vector Search
 
 Application
   Python · FastAPI · PostgreSQL · React · TypeScript
 
-Platform
-  Docker · Kubernetes · Helm · Terraform · GitHub Actions
+Cloud / Platform
+  Azure · Azure OpenAI · Azure AI Search · Docker · Kubernetes · Helm · Terraform
+  GitHub Actions · CI/CD
 
-Quality & Security
-  Pytest · CI/CD · Evaluation · Observability · RBAC · AI Guardrails
+Quality / Security
+  Pytest · Ruff · Evaluation · Observability · RBAC · AI Guardrails · Threat Modeling
 ```
 
 ---
@@ -181,4 +198,4 @@ Quality & Security
 
 ---
 
-> **Open to AI Engineering, Applied AI, AI Platform, LLM, RAG, and Agentic AI opportunities.**
+> **Open to AI Engineering, Applied AI, AI Platform, LLM, RAG, Generative AI, and Agentic AI opportunities.**
