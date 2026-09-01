@@ -22,21 +22,21 @@ My focus is applied AI engineering: turning AI capabilities into **secure, groun
 
 ## 🚀 Featured AI Engineering Projects
 
-### 🧠 Gandalf — Multimodal AI Agent
+### 📊 QStock — Enterprise Inventory Intelligence
 
-A Python-based **multimodal AI agent** combining LLM reasoning, voice interaction, computer vision, image generation, and desktop automation.
+AI-powered inventory intelligence platform developed for **Scouts Musulmans de Montréal** and used by **250+ users**.
 
-- Natural-language command routing and tool orchestration
-- Voice/STT/TTS interaction
-- Computer vision and multimodal workflows
-- Image generation integration
-- Safer desktop/application automation
-- Configurable external AI services and runtime isolation
-- Input validation, safety controls, automated tests and CI quality gates
+- Natural-language interaction with structured PostgreSQL data
+- Template-first NL→SQL architecture with LLM fallback
+- SQL validation and read-only execution
+- English/French query support
+- Prompt-injection and sensitive-data protections
+- AI regression testing and latency/token/cost instrumentation
+- React + FastAPI + PostgreSQL + Docker + GitHub Actions
 
-**Stack:** Python · LLMs · Voice AI · Computer Vision · Generative AI · Automation · Pytest · Ruff · GitHub Actions
+**Stack:** Python · FastAPI · PostgreSQL · OpenAI · Ollama · React · TypeScript · Docker
 
-[View Gandalf →](https://github.com/Akumo961/Gandalf)
+[View QStock →](https://github.com/Akumo961/QStock-Enterprise-Inventory-Intelligence-Platform)
 
 ---
 
@@ -79,21 +79,21 @@ Privacy-conscious medical-document intelligence platform focused on structured e
 
 ---
 
-### 📊 QStock — Enterprise Inventory Intelligence
+### 🧠 Gandalf — Multimodal AI Agent
 
-AI-powered inventory intelligence platform developed for **Scouts Musulmans de Montréal** and used by **250+ users**.
+A Python-based **multimodal AI agent** combining LLM reasoning, voice interaction, computer vision, image generation, and desktop automation.
 
-- Natural-language interaction with structured PostgreSQL data
-- Template-first NL→SQL architecture with LLM fallback
-- SQL validation and read-only execution
-- English/French query support
-- Prompt-injection and sensitive-data protections
-- AI regression testing and latency/token/cost instrumentation
-- React + FastAPI + PostgreSQL + Docker + GitHub Actions
+- Natural-language command routing and tool orchestration
+- Voice/STT/TTS interaction
+- Computer vision and multimodal workflows
+- Image generation integration
+- Safer desktop/application automation
+- Configurable external AI services and runtime isolation
+- Input validation, safety controls, automated tests and CI quality gates
 
-**Stack:** Python · FastAPI · PostgreSQL · OpenAI · Ollama · React · TypeScript · Docker
+**Stack:** Python · LLMs · Voice AI · Computer Vision · Generative AI · Automation · Pytest · Ruff · GitHub Actions
 
-[View QStock →](https://github.com/Akumo961/QStock-Enterprise-Inventory-Intelligence-Platform)
+[View Gandalf →](https://github.com/Akumo961/Gandalf)
 
 ---
 
